@@ -5,15 +5,9 @@ import mysql.connector.pooling
 dbconfig = {
     "host":"us-cdbr-east-06.cleardb.net",
     "port":"3306",
-<<<<<<< HEAD
     "user":"b8d291ec37b59a",
     "password":"c58cc3d6",
     "database":"heroku_f1e67ad3aa41d50",
-=======
-    "user":"root",
-    "password":"admin_1572003_jesc",
-    "database":"e_restaurant",
->>>>>>> 73b707375bf3cc0104138daa1731250ae30105a0
     
 }
 
