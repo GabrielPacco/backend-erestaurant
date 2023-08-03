@@ -6,7 +6,7 @@ from flask_socketio import SocketIO
 socketio = SocketIO()
 
 def create_app():
-    app = Flask(__name__, template_folder='templates')
+    app = Flask(__name__)
     app.config["DEBUG"] = True
     app.config["SECRET_KEY"] = "secret"
 
@@ -21,6 +21,7 @@ def create_app():
 
     return app
 
+app = create_app()
+
 if __name__ == "__main__":
-    app = create_app()
     socketio.run(app)
